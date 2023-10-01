@@ -22,7 +22,7 @@ const CTA: React.FC<CTAProps> = () => {
 						src="/images/ctaic-apple.png"
 						alt="" />
 					<p className={clsx("text-white text-center text-3xl font-semibold", orbitron.className)}>App Store</p>
-					<Button variant={"kboom"} className="text-2xl py-8 px-8 mx-auto">Download</Button>
+					<Button variant={"kboom"} className="text-2xl py-8 px-8 mx-auto">Join</Button>
 				</div>
 				<img src="/images/cta-apple.png" className="w-full duration-5000 group-hover:scale-150" alt="" />
 			</div>
@@ -33,7 +33,7 @@ const CTA: React.FC<CTAProps> = () => {
 						src="/images/ctaic-google.png"
 						alt="" />
 					<p className={clsx("text-white text-center text-3xl font-semibold mt-8", orbitron.className)}>Google Play</p>
-					<Button variant={"kboom"} className="text-2xl py-8 px-8 mx-auto">Download</Button>
+					<Button variant={"kboom"} className="text-2xl py-8 px-8 mx-auto">Join</Button>
 				</div>
 				<img src="/images/cta-google.png" className="w-full duration-5000 group-hover:scale-150" alt="" />
 			</div>
