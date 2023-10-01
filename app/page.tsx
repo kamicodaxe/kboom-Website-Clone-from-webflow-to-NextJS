@@ -2,6 +2,7 @@ import { CTA } from '@/components/landing/cta'
 import { Engage } from '@/components/landing/engage'
 import { Features } from '@/components/landing/features'
 import { Header } from '@/components/landing/header'
+import { Newsletter } from '@/components/landing/newsletter'
 import { Partners } from '@/components/landing/partners'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Features />
       <Engage />
       <CTA />
+      <Newsletter />
     </main>
   )
 }
