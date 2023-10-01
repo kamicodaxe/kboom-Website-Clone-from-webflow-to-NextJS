@@ -1,3 +1,4 @@
+import { Features } from '@/components/landing/features'
 import { Header } from '@/components/landing/header'
 import { Partners } from '@/components/landing/partners'
 
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="bg-[#262c3a]">
       <Header />
       <Partners />
+      <Features />
     </main>
   )
 }
