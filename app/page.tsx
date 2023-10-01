@@ -1,3 +1,4 @@
+import { CTA } from '@/components/landing/cta'
 import { Engage } from '@/components/landing/engage'
 import { Features } from '@/components/landing/features'
 import { Header } from '@/components/landing/header'
@@ -10,6 +11,7 @@ export default function Home() {
       <Partners />
       <Features />
       <Engage />
+      <CTA />
     </main>
   )
 }
