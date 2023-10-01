@@ -1,3 +1,4 @@
+import { Engage } from '@/components/landing/engage'
 import { Features } from '@/components/landing/features'
 import { Header } from '@/components/landing/header'
 import { Partners } from '@/components/landing/partners'
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Partners />
       <Features />
+      <Engage />
     </main>
   )
 }
