@@ -46,5 +46,6 @@
     "description": "We know, you can't wait for KBOOM to go live... To make the wait go by a little smoother, join our weekly newsletter, offering an immersive dive into the esports world. Whether you're a hardcore gamer, a casual fan, or just curious about this booming industry, our newsletter has something for everyone.",
     "placeholder": "Your Email Address",
     "subscribeButton": "Subscribe Now"
-  }
+  },
+  "languageSelection": "Language:"
 }

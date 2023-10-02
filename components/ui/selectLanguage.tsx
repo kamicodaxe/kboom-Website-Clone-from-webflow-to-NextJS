@@ -29,21 +29,23 @@ import { Translations } from "@/app/[lang]/dictionary";
 
 export interface SelectLanguageProps {
 	translations: Translations
+	lang: string
 }
 
-const SelectLanguage: React.FC<SelectLanguageProps> = () => {
+const SelectLanguage: React.FC<SelectLanguageProps> = ({ translations, lang }) => {
 	return (
 		<section className="bg-[#262c3a] text-black flex justify-center">
 
-			<Select defaultValue="en">
+			<Select defaultValue={lang}>
 				<SelectTrigger className="w-[180px]">
-					Language:
+					{translations.languageSelection}
 					<SelectValue placeholder="English" />
 				</SelectTrigger>
 				<SelectContent>
 					<SelectItem value="en">English</SelectItem>
 					<SelectItem value="fr">Français</SelectItem>
-					<SelectItem value="es">Spanish</SelectItem>
+					<SelectItem value="es">Español</SelectItem>
+					<SelectItem value="nl">Nederlands</SelectItem>
 				</SelectContent>
 			</Select>
 		</section>

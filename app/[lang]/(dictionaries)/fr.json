@@ -46,5 +46,6 @@
     "description": "Nous le savons, vous ne pouvez pas attendre que KBOOM soit en ligne... Pour rendre l'attente un peu plus agréable, rejoignez notre bulletin d'information hebdomadaire, offrant une plongée immersive dans le monde de l'esport. Que vous soyez un joueur hardcore, un fan occasionnel ou simplement curieux de cette industrie en plein essor, notre bulletin a quelque chose pour tout le monde.",
     "placeholder": "Votre adresse e-mail",
     "subscribeButton": "Abonnez-vous maintenant"
-  }
+  },
+  "languageSelection": "Langue :"
 }
