@@ -22,7 +22,9 @@
     "description": "KBOOM rend chaque moment inoubliable. Vous n'êtes pas seulement un fan, vous faites partie de l'équipe!"
   },
   "engage": {
-    "title": "Engagez-vous. Gagnez. Répétez",
+    "engage": "Engagez-vous. ",
+    "win": "Gagnez",
+    "repeat": "Répétez",
     "description": "KBOOM facilite le suivi de vos équipes préférées et l'engagement avec elles. Choisissez vos équipes, ajoutez-les à votre liste et participez à chacune de leurs quêtes. En accomplissant plusieurs quêtes, vous pouvez monter dans les classements de votre équipe! Mais attention, toutes les quêtes ne se valent pas...",
     "exploreButton": "Explorez Plus"
   },

@@ -22,7 +22,9 @@
     "description": "KBOOM maakt elk moment onvergetelijk. Je bent niet zomaar een fan, je maakt deel uit van het team!"
   },
   "engage": {
-    "title": "Betrokken. Winnen. Herhalen",
+    "engage": "Betrokken zijn. ",
+    "win": "Winnen",
+    "repeat": "Herhaal",
     "description": "KBOOM maakt het volgen van je favoriete teams en de interactie met hen eenvoudig. Kies je teams, voeg ze toe aan je lijst en betrek je bij elke missie van hen. Door meerdere missies te voltooien, kun je in rang stijgen ten gunste van je team! Maar wees gewaarschuwd, niet alle missies zijn gelijk...",
     "exploreButton": "Verken Meer"
   },

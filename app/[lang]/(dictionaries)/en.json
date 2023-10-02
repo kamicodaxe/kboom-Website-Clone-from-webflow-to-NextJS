@@ -22,7 +22,9 @@
     "description": "KBOOM makes every moment count. You are not just a Fan, you are a part of the team!"
   },
   "engage": {
-    "title": "Engage. Win. Repeat",
+    "engage": "Engage. ",
+    "win": "Win",
+    "repeat": "Repeat",
     "description": "KBOOM makes following your favorite teams and engaging with them easy. Choose your teams, add them to your roster, and engage with each of their Quests. Completing multiple Quests can get you ranked up in your team's favor! But be warned, not all Quests are created equal...",
     "exploreButton": "Explore More"
   },

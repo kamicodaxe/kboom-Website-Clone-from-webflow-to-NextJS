@@ -22,7 +22,9 @@
     "description": "KBOOM hace que cada momento cuente. No eres solo un fan, ¡eres parte del equipo!"
   },
   "engage": {
-    "title": "Participa. Gana. Repite",
+    "engage": "Participa. ",
+    "win": "Gana",
+    "repeat": "Repite",
     "description": "KBOOM facilita seguir a tus equipos favoritos y comprometerte con ellos. Elige tus equipos, agrégales a tu lista y participa en cada una de sus misiones. ¡Completar múltiples misiones puede aumentar tu rango a favor de tu equipo! Pero ten cuidado, no todas las misiones son iguales...",
     "exploreButton": "Explora Más"
   },

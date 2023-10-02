@@ -17,14 +17,11 @@ const Engage: React.FC<EngageProps> = ({ translations }) => {
 		<section className="bg-[#262c3a] py-16 flex flex-col md:flex-row">
 			<div className="container mx-auto flex flex-col py-8 space-y-2">
 				<div className="relative pb-8">
-					<h2 className="text-[3.5rem] font-bold text-white">Engage.
-						<span className="text-[#2ce5a7] dark:text-[#2ce5a7] capitalize"> Win</span>. Repeat</h2>
+					<h2 className="text-[3.5rem] font-bold text-white">{translations.engage.engage}
+						<span className="text-[#2ce5a7] dark:text-[#2ce5a7] capitalize"> {translations.engage.win}</span>. {translations.engage.repeat}</h2>
 				</div>
 				<p className="dark:text-[#999] text-[#999] pb-8">
-					KBOOM makes following your favorite team's and engaging with them easy. Choose your teams, add them to your roster, and engage with each of their Quests. Completing multiple Quests can get you ranked up in your teams favor !
-					<br />
-					<br />
-					But be warned, not all Quests are created equal...
+					{translations.engage.description}
 				</p>
 				<Button variant={"kboom"} className="text-2xl py-8 px-8">{translations.engage.exploreButton}</Button>
 			</div>
