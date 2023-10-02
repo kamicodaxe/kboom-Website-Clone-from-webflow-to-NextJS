@@ -5,17 +5,20 @@
 import * as React from "react"
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import { Translations } from "@/app/[lang]/dictionary"
 
 
-export interface HeaderProps { }
+export interface HeaderProps {
+	translations: Translations
+}
 
-const Header: React.FC<HeaderProps> = () => {
+const Header: React.FC<HeaderProps> = ({ translations }) => {
 	return (
 		<header className="">
 			<nav className="flex justify-between py-5 px-4 mx-auto">
 				<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center">
 					<img
-						src="https://uploads-ssl.webflow.com/64fed5a8931f040faf0192d3/64fed83b6abe46916dc825a7_logo%20(1).png"
+						src="/images/logo.png"
 						loading="lazy"
 						width="209"
 						className="pl-2 pb-2"
@@ -24,13 +27,13 @@ const Header: React.FC<HeaderProps> = () => {
 
 				<ul className="items-stretch hidden space-x-6 lg:flex text-xl font-bold text-white">
 					<li className="flex">
-						<Link rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent border-[#2ce5a7] text-[#2ce5a7] dark:text-[#2ce5a7] dark:border-[#2ce5a7]">Home</Link>
+						<Link rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent border-[#2ce5a7] text-[#2ce5a7] dark:text-[#2ce5a7] dark:border-[#2ce5a7]">{translations.navigation.home}</Link>
 					</li>
 					<li className="flex">
-						<Link rel="noopener noreferrer" href="/blog" className="flex items-center px-4 -mb-1 border-b-2 border-transparent dark:border-transparent">Blog</Link>
+						<Link rel="noopener noreferrer" href="/blog" className="flex items-center px-4 -mb-1 border-b-2 border-transparent dark:border-transparent">{translations.navigation.blog}</Link>
 					</li>
 					<li className="flex">
-						<Link rel="noopener noreferrer" href="/about" className="flex items-center px-4 -mb-1 border-b-2 border-transparent dark:border-transparent">About</Link>
+						<Link rel="noopener noreferrer" href="/about" className="flex items-center px-4 -mb-1 border-b-2 border-transparent dark:border-transparent">{translations.navigation.about}</Link>
 					</li>
 				</ul>
 				<div className="items-center flex-shrink-0 hidden lg:flex">
@@ -50,9 +53,9 @@ const Header: React.FC<HeaderProps> = () => {
 						Is A Roar Of <span className="text-[#2ce5a7] dark:text-[#2ce5a7]"> Fans</span>
 					</h1>
 					<p className="px-8 mb-16 text-lg text-[#999] ">
-						Fan's are the backbone of every team, but can they rise up to the challenges ahead? Enter the world of KBOOM and compete for your favorite teams.
+						{translations.cta.subtitle}
 					</p>
-					<Button variant={"kboom"} className="text-2xl py-8 px-8">Get Started on your browser</Button>
+					<Button variant={"kboom"} className="text-2xl py-8 px-8">{translations.cta.button}</Button>
 					<div className="flex flex-wrap justify-center space-y-8 md:space-y-0">
 						<img className="mx-6 h-16" src="/images/app-store.png" alt="" />
 						<img className="mx-6 h-16" src="/images/playstore.png" alt="" />

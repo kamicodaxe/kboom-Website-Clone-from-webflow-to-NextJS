@@ -1,0 +1,1 @@
+# Components used in the kboom.gg dashboard

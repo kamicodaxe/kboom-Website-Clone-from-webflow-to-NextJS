@@ -1,0 +1,50 @@
+{
+  "navigation": {
+    "home": "Home",
+    "blog": "Blog",
+    "about": "Over Ons"
+  },
+  "cta": {
+    "title": "Achter Elk Team Staat een Brul Van Fans",
+    "subtitle": "Fans zijn de ruggengraat van elk team, maar kunnen ze de uitdagingen die voor hen liggen aangaan? Betreed de wereld van KBOOM en strijd voor je favoriete teams.",
+    "button": "Begin op je browser"
+  },
+  "download": {
+    "appStore": "Downloaden in de App Store",
+    "playStore": "Haal het in Google Play"
+  },
+  "partners": {
+    "title": "Onze Partners",
+    "subtitle": "Onze vertrouwde partners helpen ons om de barrières tussen teams en spelers te doorbreken!"
+  },
+  "features": {
+    "title": "Jouw Ultieme Fan Ervaring",
+    "description": "KBOOM maakt elk moment onvergetelijk. Je bent niet zomaar een fan, je maakt deel uit van het team!"
+  },
+  "engage": {
+    "title": "Betrokken. Winnen. Herhalen",
+    "description": "KBOOM maakt het volgen van je favoriete teams en de interactie met hen eenvoudig. Kies je teams, voeg ze toe aan je lijst en betrek je bij elke missie van hen. Door meerdere missies te voltooien, kun je in rang stijgen ten gunste van je team! Maar wees gewaarschuwd, niet alle missies zijn gelijk...",
+    "exploreButton": "Verken Meer"
+  },
+  "downloadButtons": {
+    "appStore": {
+      "title": "App Store",
+      "button": "Word Lid"
+    },
+    "playStore": {
+      "title": "Google Play",
+      "button": "Word Lid"
+    },
+    "web": {
+      "title": "Desktop & Web",
+      "button": "Beginnen"
+    }
+  },
+  "newsletter": {
+    "title": "Abonneer je op onze",
+    "subtitle": "Nieuwsbrief",
+    "description": "We begrijpen het, je kunt niet wachten tot KBOOM live gaat... Om het wachten iets aangenamer te maken, sluit je aan bij onze wekelijkse nieuwsbrief, die een diepgaande duik biedt in de wereld van esports. Of je nu een hardcore gamer bent, een casual fan of gewoon nieuwsgierig bent naar deze bloeiende industrie, onze nieuwsbrief heeft voor ieder wat wils.",
+    "placeholder": "Je E-mailadres",
+    "subscribeButton": "Nu Abonneren"
+  }
+}

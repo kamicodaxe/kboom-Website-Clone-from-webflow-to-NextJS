@@ -1,0 +1,50 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "about": "Acerca de"
+  },
+  "cta": {
+    "title": "Detrás de Cada Equipo Hay un Rugido de Fans",
+    "subtitle": "Los fans son la columna vertebral de cada equipo, pero ¿pueden enfrentarse a los desafíos que se avecinan? Entra en el mundo de KBOOM y compite por tus equipos favoritos.",
+    "button": "Comienza en tu navegador"
+  },
+  "download": {
+    "appStore": "Descargar en la App Store",
+    "playStore": "Obténlo en Google Play"
+  },
+  "partners": {
+    "title": "Nuestros Socios",
+    "subtitle": "Nuestros socios de confianza nos ayudan a romper las barreras entre los equipos y los jugadores."
+  },
+  "features": {
+    "title": "Tu Experiencia Definitiva como Fan",
+    "description": "KBOOM hace que cada momento cuente. No eres solo un fan, ¡eres parte del equipo!"
+  },
+  "engage": {
+    "title": "Participa. Gana. Repite",
+    "description": "KBOOM facilita seguir a tus equipos favoritos y comprometerte con ellos. Elige tus equipos, agrégales a tu lista y participa en cada una de sus misiones. ¡Completar múltiples misiones puede aumentar tu rango a favor de tu equipo! Pero ten cuidado, no todas las misiones son iguales...",
+    "exploreButton": "Explora Más"
+  },
+  "downloadButtons": {
+    "appStore": {
+      "title": "App Store",
+      "button": "Unirse"
+    },
+    "playStore": {
+      "title": "Google Play",
+      "button": "Unirse"
+    },
+    "web": {
+      "title": "Escritorio & Web",
+      "button": "Empezar"
+    }
+  },
+  "newsletter": {
+    "title": "Suscríbete a nuestro",
+    "subtitle": "Boletín de noticias",
+    "description": "Lo sabemos, no puedes esperar a que KBOOM esté en vivo... Para hacer que la espera sea un poco más fácil, únete a nuestro boletín semanal, que ofrece una inmersión profunda en el mundo de los deportes electrónicos. Ya seas un jugador apasionado, un fan casual o simplemente curioso acerca de esta industria en auge, nuestro boletín tiene algo para todos.",
+    "placeholder": "Tu dirección de correo electrónico",
+    "subscribeButton": "Suscríbete Ahora"
+  }
+}

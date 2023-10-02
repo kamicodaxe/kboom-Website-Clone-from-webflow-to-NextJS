@@ -4,12 +4,15 @@
  */
 import * as React from "react"
 import { Button } from "../ui/button"
+import { Translations } from "@/app/[lang]/dictionary"
 
 
 
-export interface EngageProps { }
+export interface EngageProps {
+	translations: Translations
+}
 
-const Engage: React.FC<EngageProps> = () => {
+const Engage: React.FC<EngageProps> = ({ translations }) => {
 	return (
 		<section className="bg-[#262c3a] py-16 flex flex-col md:flex-row">
 			<div className="container mx-auto flex flex-col py-8 space-y-2">
@@ -23,7 +26,7 @@ const Engage: React.FC<EngageProps> = () => {
 					<br />
 					But be warned, not all Quests are created equal...
 				</p>
-				<Button variant={"kboom"} className="text-2xl py-8 px-8">Explore More</Button>
+				<Button variant={"kboom"} className="text-2xl py-8 px-8">{translations.engage.exploreButton}</Button>
 			</div>
 			<div className="container flex justify-center mt-8 md:mt-8">
 				<img src="/images/phone.png" className="w-[24rem] " alt="" />

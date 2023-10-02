@@ -1,0 +1,50 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "about": "À propos"
+  },
+  "cta": {
+    "title": "Derrière Chaque Équipe Se Trouve un Rugissement de Fans",
+    "subtitle": "Les fans sont l'épine dorsale de chaque équipe, mais peuvent-ils relever les défis qui se présentent? Plongez dans le monde de KBOOM et participez pour vos équipes préférées.",
+    "button": "Commencez sur votre navigateur"
+  },
+  "download": {
+    "appStore": "Télécharger sur l'App Store",
+    "playStore": "Obtenez-le sur Google Play"
+  },
+  "partners": {
+    "title": "Nos Partenaires",
+    "subtitle": "Nos partenaires de confiance nous aident à briser les barrières entre les équipes et les joueurs!"
+  },
+  "features": {
+    "title": "Votre Expérience Ultime de Fan",
+    "description": "KBOOM rend chaque moment inoubliable. Vous n'êtes pas seulement un fan, vous faites partie de l'équipe!"
+  },
+  "engage": {
+    "title": "Engagez-vous. Gagnez. Répétez",
+    "description": "KBOOM facilite le suivi de vos équipes préférées et l'engagement avec elles. Choisissez vos équipes, ajoutez-les à votre liste et participez à chacune de leurs quêtes. En accomplissant plusieurs quêtes, vous pouvez monter dans les classements de votre équipe! Mais attention, toutes les quêtes ne se valent pas...",
+    "exploreButton": "Explorez Plus"
+  },
+  "downloadButtons": {
+    "appStore": {
+      "title": "App Store",
+      "button": "Rejoindre"
+    },
+    "playStore": {
+      "title": "Google Play",
+      "button": "Rejoindre"
+    },
+    "web": {
+      "title": "Ordinateur & Web",
+      "button": "Commencer"
+    }
+  },
+  "newsletter": {
+    "title": "Abonnez-vous à notre",
+    "subtitle": "Bulletin d'information",
+    "description": "Nous le savons, vous ne pouvez pas attendre que KBOOM soit en ligne... Pour rendre l'attente un peu plus agréable, rejoignez notre bulletin d'information hebdomadaire, offrant une plongée immersive dans le monde de l'esport. Que vous soyez un joueur hardcore, un fan occasionnel ou simplement curieux de cette industrie en plein essor, notre bulletin a quelque chose pour tout le monde.",
+    "placeholder": "Votre adresse e-mail",
+    "subscribeButton": "Abonnez-vous maintenant"
+  }
+}
