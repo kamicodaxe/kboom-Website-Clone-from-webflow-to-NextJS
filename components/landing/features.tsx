@@ -19,7 +19,7 @@ const Features: React.FC<FeaturesProps> = ({ translations }) => {
 		<section
 			className="bg-gradient-to-b from-black via-transparent to-black bg-cover bg-center bg-fixed py-16"
 			style={{
-				backgroundImage: "linear-gradient(rgba(0, 18, 0, .75), rgba(0, 0, 0, .75)), url('/images/bgfeatures.png')"
+				backgroundImage: "linear-gradient(rgba(0, 18, 0, .75), rgba(0, 0, 0, .75)), url('/images/bgfeatures.jpg')"
 			}}>
 			<AnimatedElement animation="fadeInUp">
 				<div className="container mx-auto space-y-2 pb-4 text-center max-w-3xl">
