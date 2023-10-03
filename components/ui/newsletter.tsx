@@ -3,7 +3,7 @@
  * Newsletter section of the landing page
  */
 import * as React from "react"
-import { Button } from "../ui/button"
+import { Button } from "./button"
 import { Translations } from "@/app/[lang]/dictionary"
 
 
