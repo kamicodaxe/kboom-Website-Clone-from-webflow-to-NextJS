@@ -6,7 +6,7 @@ import * as React from "react"
 import { Orbitron } from 'next/font/google'
 import clsx from "clsx"
 import { Translations } from "@/app/[lang]/dictionary"
-import AnimatedElement from "../ui/AnimatedElement"
+import AnimatedElement from "../ui/animated-element"
 
 const orbitron = Orbitron({ subsets: ['latin'] })
 

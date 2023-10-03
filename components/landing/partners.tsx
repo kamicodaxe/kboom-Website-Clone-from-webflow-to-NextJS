@@ -4,7 +4,7 @@
  */
 import { Translations } from "@/app/[lang]/dictionary"
 import * as React from "react"
-import AnimatedElement from "../ui/AnimatedElement"
+import AnimatedElement from "../ui/animated-element"
 
 
 export interface PartnersProps {

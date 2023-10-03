@@ -5,7 +5,7 @@
 import * as React from "react"
 import { Button } from "../ui/button"
 import { Translations } from "@/app/[lang]/dictionary"
-import AnimatedElement from "../ui/AnimatedElement"
+import AnimatedElement from "../ui/animated-element"
 
 
 export interface EngageProps {
