@@ -5,6 +5,7 @@ import { Newsletter } from '@/components/ui/newsletter'
 import clsx from 'clsx'
 import { Orbitron } from 'next/font/google'
 import Link from 'next/link'
+import { Metadata } from 'next'
 const orbitron = Orbitron({ subsets: ['latin'] })
 
 
@@ -102,4 +103,10 @@ export default async function TeamMember({ params: { lang } }: TeamMemberProps) 
 
     </main>
   )
+}
+
+
+export const metadata: Metadata = {
+  title: 'Team',
+  description: 'Team KBOOM.gg',
 }

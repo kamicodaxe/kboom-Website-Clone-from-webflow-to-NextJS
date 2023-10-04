@@ -57,7 +57,7 @@ export default async function BlogPost(props: BlogPostProps) {
 
         <div dangerouslySetInnerHTML={{
           __html: post.content
-        }} className="prose w-full" />
+        }} className="prose w-full dark:prose-invert" />
 
         <div className="border-t border-gray-300 pt-4">
           <h2 className="text-xl font-bold mb-2">Categories</h2>
@@ -95,5 +95,11 @@ export default async function BlogPost(props: BlogPostProps) {
 }
 
 
-
-
+// // Dynamic metadata
+// export async function generateMetadata({ params: { slug } }: { params: { slug: string, lang: string } }) {
+//   const post = getPost(slug)
+//   return {
+//     title: post.title,
+//     description: post.content // Should be description short content!
+//   }
+// }

@@ -6,6 +6,7 @@ import { Newsletter } from '@/components/ui/newsletter'
 import { Partners } from '@/components/landing/partners'
 import { SelectLanguage } from '@/components/ui/selectLanguage'
 import { getDictionary } from './dictionary'
+import { Metadata } from 'next'
 
 interface HomeProps {
   params: {
@@ -24,7 +25,12 @@ export default async function Home({ params: { lang } }: HomeProps) {
       <Engage translations={translations} />
       <CTA translations={translations} />
       <Newsletter translations={translations} />
-      <SelectLanguage translations={translations} lang={lang} />
     </main>
   )
+}
+
+
+export const metadata: Metadata = {
+  title: 'KBOOM Landing Page',
+  description: 'Your Gateway to the Thrilling World of Esports! Immerse yourself in the heart-pounding action of competitive gaming. Explore cutting-edge gaming technology, follow your favorite teams, and dive into the esports phenomenon. Level up your gaming experience at KBOOM.gg!',
 }

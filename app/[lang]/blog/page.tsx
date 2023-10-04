@@ -7,6 +7,7 @@ import { posts } from '@/app/api/database'
 import BlogPosts from '@/components/blog/blog-posts'
 import { Suspense } from 'react'
 import BlogHeader from '@/components/blog/header'
+import { Metadata } from 'next'
 
 interface BlogProps {
   params: {
@@ -18,7 +19,7 @@ export default async function Blog({ params: { lang } }: BlogProps) {
   const translations = await getDictionary(lang)
 
   return (
-    <main className="">
+    <main className="dark:bg-[#262c3a]">
       <Navbar translations={translations} />
 
       <BlogHeader posts={posts} />
@@ -50,6 +51,11 @@ export async function generateStaticParams() {
   return posts.map(post => ({
     slug: post.slug
   }))
+}
+
+export const metadata: Metadata = {
+  title: 'KBoom.gg Blog',
+  description: "KBoom egames stories"
 }
 
 // Enable Incremental Static Site Regeneration with a 60s interval
