@@ -21,7 +21,7 @@ const BlogHeader: React.FC<BlogHeaderProps> & { Skeleton: React.FC } = ({
 					backgroundSize: 'cover',
 				}}>
 					<Link href={`/blog/${posts[0].slug}`}>
-						<div className="flex flex-col items-center p-8 py-12 text-center group hover:bg-gray-200 dark:hover:bg-gray-80">
+						<div className="flex flex-col items-center p-8 py-12 text-center text-gray-50 group">
 							<span>12 June</span>
 							<h1 className="py-4 text-5xl font-bold">{posts[0].title}</h1>
 							<p className="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, a!</p>
@@ -54,7 +54,7 @@ const BlogHeader: React.FC<BlogHeaderProps> & { Skeleton: React.FC } = ({
 };
 
 BlogHeader.Skeleton = () => (
-	<div className="dark:bg-gray-800 text-gray-50">
+	<div className=" text-gray-50">
 		<div className="container grid grid-cols-12 mx-auto">
 			<div className="flex flex-col justify-center col-span-12 align-middle bg-no-repeat bg-cover lg:col-span-6 lg:h-auto">
 				<div className="flex flex-col items-center p-8 py-12 text-center">
@@ -75,5 +75,7 @@ BlogHeader.Skeleton = () => (
 		</div>
 	</div>
 )
+
+BlogHeader.displayName = "Blog Header"
 
 export default BlogHeader;
