@@ -3,7 +3,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 export default function Loading() {
 	return (
-		<main className="dark:bg-gray-800 text-gray-50">
+		<main className="text-gray-50">
 
 			<Navbar.Skeleton />
 

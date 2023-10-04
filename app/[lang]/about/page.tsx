@@ -24,7 +24,7 @@ export default async function About({ params: { lang } }: AboutProps) {
       <Navbar pathname='/about' translations={translations} />
 
       <section className="bg-[#fed351] text-black dark:text-black">
-        <div className="container mx-auto flex flex-col items-center py-16 text-center max-w-5xl">
+        <div className="container mx-auto flex flex-col items-center py-32 text-center max-w-5xl">
           <h1 className="text-5xl font-[800] md:leading-[82px] md:text-7xl">
             {translations.navigation.about}
           </h1>

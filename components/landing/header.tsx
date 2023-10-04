@@ -28,8 +28,12 @@ const Header: React.FC<HeaderProps> = ({ translations }) => {
 					</p>
 					<Button variant={"kboom"} className="text-2xl py-8 px-8">{translations.cta.button}</Button>
 					<div className="flex flex-wrap justify-center space-y-8 md:space-y-0">
-						<img className="mx-6 h-16 filter  invert-0" src="/images/app-store.png" alt="" />
-						<img className="mx-6 h-16 bg-red-100" src="/images/playstore.png" alt="" />
+						<a href="#appstore">
+							<img className="mx-6 h-16 invert hover:invert-[50%] dark:invert-0 dark:hover:invert-[50%] hue-rotate-15" src="/images/app-store.png" alt="" />
+						</a>
+						<a href="#playstore">
+							<img className="mx-6 h-16 invert hover:invert-[50%] dark:invert-0 dark:hover:invert-[50%] hue-rotate-15" src="/images/playstore.png" alt="" />
+						</a>
 					</div>
 				</div>
 				<img src='/images/banner-img.png' />

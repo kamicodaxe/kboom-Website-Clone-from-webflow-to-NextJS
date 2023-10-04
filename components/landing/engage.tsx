@@ -14,14 +14,14 @@ export interface EngageProps {
 
 const Engage: React.FC<EngageProps> = ({ translations }) => {
 	return (
-		<section className="bg-[#262c3a] py-16 flex flex-col md:flex-row">
+		<section className="dark:bg-[#262c3a] py-16 flex flex-col md:flex-row">
 			<div className="container mx-auto">
 				<AnimatedElement className="flex flex-col py-8 space-y-2" animation="fadeInRight">
 					<div className="relative pb-8">
-						<h2 className="text-[3.5rem] font-bold text-white">{translations.engage.engage}
+						<h2 className="text-[3.5rem] font-bold dark:text-white">{translations.engage.engage}
 							<span className="text-[#2ce5a7] dark:text-[#2ce5a7] capitalize"> {translations.engage.win}</span>. {translations.engage.repeat}</h2>
 					</div>
-					<p className="dark:text-[#999] text-[#999] pb-8">
+					<p className="text-gray-900 dark:text-gray-200  pb-8">
 						{translations.engage.description}
 					</p>
 					<Button variant={"kboom"} className="text-2xl py-8 px-8">{translations.engage.exploreButton}</Button>

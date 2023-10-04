@@ -52,7 +52,7 @@ export default async function BlogPost(props: BlogPostProps) {
       </section>
 
       <div className="container mx-auto flex flex-col py-16 items-stretch text-gray-800 dark:text-gray-200 max-w-3xl">
-        <img src="https://via.placeholder.com/800x400" alt="Blog Post" className="w-full h-64 object-cover mb-6" />
+        <img src="https://source.unsplash.com/1024x620/?games?99" alt="Blog Post" className="w-full h-96 object-cover mb-6" />
         <p className="mb-6 self-start">Published on August 25, 2023 by {post.author.name} </p>
 
         <div dangerouslySetInnerHTML={{
@@ -96,10 +96,13 @@ export default async function BlogPost(props: BlogPostProps) {
 
 
 // // Dynamic metadata
-// export async function generateMetadata({ params: { slug } }: { params: { slug: string, lang: string } }) {
-//   const post = getPost(slug)
-//   return {
-//     title: post.title,
-//     description: post.content // Should be description short content!
-//   }
-// }
+export async function generateMetadata({ params: { slug } }: { params: { slug: string, lang: string } }) {
+  const post = getPost(slug)
+  return {
+    title: post.title,
+    description: post.content, // Should be description short content!
+    icons: {
+      icon: "/images/features-1.png"
+    }
+  }
+}

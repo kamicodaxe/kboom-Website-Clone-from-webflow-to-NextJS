@@ -55,7 +55,10 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
   title: 'KBoom.gg Blog',
-  description: "KBoom egames stories"
+  description: "KBoom egames stories",
+  icons: {
+    icon: "/images/features-1.png"
+  }
 }
 
 // Enable Incremental Static Site Regeneration with a 60s interval
