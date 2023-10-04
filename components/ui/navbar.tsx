@@ -89,4 +89,6 @@ Navbar.Skeleton = () => (
 	</nav>
 )
 
+Navbar.Skeleton.displayName = "Nav bar Skeleton"
+
 export { Navbar }

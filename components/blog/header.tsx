@@ -77,5 +77,6 @@ BlogHeader.Skeleton = () => (
 )
 
 BlogHeader.displayName = "Blog Header"
+BlogHeader.Skeleton.displayName = "Blog Header Skeleton"
 
 export default BlogHeader;

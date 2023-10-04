@@ -73,5 +73,6 @@ BlogPosts.Skeleton = ({ count }) => (
 )
 
 BlogPosts.displayName = "Blog Posts"
+BlogPosts.Skeleton.displayName = "Blog Posts Skeleton"
 
 export default BlogPosts;
