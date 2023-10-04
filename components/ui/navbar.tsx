@@ -5,13 +5,13 @@
 import * as React from "react"
 import Link from 'next/link'
 import { Translations } from "@/app/[lang]/dictionary"
-
+import { Skeleton } from "./skeleton"
 
 export interface NavbarProps {
 	translations: Translations
 }
 
-const Navbar: React.FC<NavbarProps> = ({ translations }) => {
+const Navbar: React.FC<NavbarProps> & { Skeleton: React.FC } = ({ translations }) => {
 	return (
 		<nav className="flex justify-between py-5 px-4 mx-auto">
 			<Link href="/" aria-label="Back to homepage" className="flex items-center">
@@ -46,5 +46,22 @@ const Navbar: React.FC<NavbarProps> = ({ translations }) => {
 }
 
 Navbar.displayName = "Navbar"
+
+Navbar.Skeleton = () => (
+	<nav className="flex justify-between py-5 px-4 mx-auto">
+		<Skeleton className="w-32 h-8" />
+		<div className="flex space-x-8">
+			<Skeleton className="h-10 w-24" />
+			<Skeleton className="h-10 w-24 hidden md:block" />
+			<Skeleton className="h-10 w-24 hidden md:block" />
+		</div>
+		<Skeleton className="h-10 w-32" />
+		<button className="p-4 lg:hidden">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8 text-white dark:text-white">
+				<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+			</svg>
+		</button>
+	</nav>
+)
 
 export { Navbar }
