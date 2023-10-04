@@ -1,15 +1,13 @@
+import clsx from 'clsx'
 import './globals.css'
-import type { Metadata } from 'next'
-import { Montserrat, Orbitron } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import { ViewSettings } from '@/components/ui/view-settings'
+import { getDictionary } from './dictionary'
+import { SelectLanguage } from '@/components/ui/selectLanguage'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'KBOOM Landing Page',
-  description: 'Your Gateway to the Thrilling World of Esports! Immerse yourself in the heart-pounding action of competitive gaming. Explore cutting-edge gaming technology, follow your favorite teams, and dive into the esports phenomenon. Level up your gaming experience at KBOOM.gg!',
-}
-
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params: { lang }
 }: {
@@ -18,9 +16,19 @@ export default function RootLayout({
     lang: string
   }
 }) {
+  const translations = await getDictionary(lang)
   return (
     <html lang={lang}>
-      <body className={montserrat.className}>{children}</body>
+      <body className={clsx(montserrat.className)}>
+        {children}
+
+        <div className="flex justify-center space-x-16">
+          <SelectLanguage lang={lang} translations={translations} />
+          <ViewSettings />
+        </div>
+
+      </body>
+
     </html>
   )
 }
