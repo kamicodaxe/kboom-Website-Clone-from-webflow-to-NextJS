@@ -8,10 +8,6 @@ interface BlogHeaderProps {
 	posts: Post[],
 }
 
-const shuffleArray = (arr: any[]) => {
-	return arr.sort(() => Math.random() * 100)
-}
-
 const BlogHeader: React.FC<BlogHeaderProps> & { Skeleton: React.FC } = ({
 	posts,
 }) => {
@@ -36,7 +32,7 @@ const BlogHeader: React.FC<BlogHeaderProps> & { Skeleton: React.FC } = ({
 					</Link>
 				</div>
 				<div className="flex flex-col col-span-12 p-6 divide-y lg:col-span-6 lg:p-10 divide-gray-700">
-					{[...shuffleArray(posts).slice(0, 3)].map((post, index) => (
+					{[...posts.slice(0, 3)].map((post, index) => (
 						<Link key={index} href={`/blog/${post.slug}`}>
 							<div key={index} className="pt-6 pb-4 space-y-2 group hover:bg-gray-200 dark:hover:bg-gray-800">
 								<span>12 June</span>
