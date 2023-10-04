@@ -22,7 +22,26 @@
   },
   "features": {
     "title": "Tu Experiencia Definitiva como Fan",
-    "description": "KBOOM hace que cada momento cuente. No eres solo un fan, ¡eres parte del equipo!"
+    "description": "KBOOM hace que cada momento cuente. No eres solo un fan, ¡eres parte del equipo!",
+    "list": [
+      {
+        "title": "Completa misiones",
+        "description": "Completa misiones para tus equipos favoritos y gana K-Coins y Gemas que puedes usar para reclamar la mercancía de tus equipos favoritos."
+      },
+      {
+        "title": "Asciende en la clasificación",
+        "description": "Muestra tu espíritu competitivo para subir en la clasificación y ganar botines. Cada victoria te acerca un paso más a esa mercancía exclusiva o 1v1."
+      },
+      {
+        "title": "Experiencias exclusivas",
+        "description": "¿Un 1v1 contra tu jugador favorito? ¿Un entrenamiento rápido de 30 minutos con un entrenador de Gamers Origin? ¡Anima y juega para ganar recompensas nunca vistas antes!"
+      },
+      {
+        "title": "Personaliza tu avatar",
+        "description": "Adapta tu perfil para que coincida con tu equipo favorito y personaliza tu propio avatar para reflejar el tipo de jugador que realmente eres."
+      }
+    ]
+
   },
   "engage": {
     "engage": "Participa. ",
@@ -56,5 +75,24 @@
   "about": {
     "paragraph1": "Comenzado en marzo de 2023, en la sala de juegos de uno de los Fundadores, KBOOM buscaba cambiar la forma en que se veían los deportes electrónicos. Nacido de la idea de que un Fan puede ser más que un simple seguidor, él es el rugido en la multitud, la motivación detrás de cada trofeo y la mano para levantar a aquellos que caen.",
     "paragraph2": "KBOOM permite a los usuarios buscar y aventurarse por sus clubes de deportes electrónicos favoritos, ganar experiencias exclusivas con sus jugadores favoritos y mostrar los colores de su equipo para que el mundo sepa dónde pertenecen. KBOOM es el puente entre los equipos y los fans."
+  },
+  "contact": {
+    "header": "Ponte en contacto",
+    "title": "Ponte en contacto",
+    "subtitle": "Estamos aquí para ayudarte.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "placeholder": {
+        "name": "Tu nombre",
+        "email": "Tu email",
+        "message": "Tu mensaje"
+      },
+      "submit": "Enviar"
+    },
+    "address": "Visítanos",
+    "phone": "Llámanos",
+    "email": "Envíanos un correo electrónico"
   }
 }

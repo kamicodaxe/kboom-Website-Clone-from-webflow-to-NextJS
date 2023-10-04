@@ -30,46 +30,46 @@ const Features: React.FC<FeaturesProps> = ({ translations }) => {
 				</div>
 			</AnimatedElement>
 			<div className="container mx-auto grid justify-center gap-8 md:grid-cols-2">
-				<AnimatedElement animation="fadeInRight">
+				<AnimatedElement className="flex h-full" animation="fadeInRight">
 					<div className="flex bg-[#141820] p-8 rounded-xl ">
 						<img src="/images/features-1.png" className="h-8 pr-4" alt="" />
 						<div className="space-y-4">
-							<h3 className={clsx("text-white text-4xl font-bold", orbitron.className)}>Complete Quests</h3>
+							<h3 className={clsx("text-white text-4xl font-bold", orbitron.className)}>{translations.features.list[0].title}</h3>
 							<p className="text-[#999] text-lg">
-								Complete Quests for your favorite teams and win K-Coins and Gem which you can use to claim your favorit teams Merch !
+								{translations.features.list[0].description}
 							</p>
 						</div>
 					</div>
 				</AnimatedElement>
-				<AnimatedElement animation="fadeInLeft">
+				<AnimatedElement className="flex h-full" animation="fadeInLeft">
 					<div className="flex bg-[#141820] p-8 rounded-xl ">
 						<img src="/images/features-1.png" className="h-8 pr-4" alt="" />
 						<div className="space-y-4">
-							<h3 className={clsx("text-white text-4xl font-bold", orbitron.className)}>Complete Quests</h3>
+							<h3 className={clsx("text-white text-4xl font-bold", orbitron.className)}>{translations.features.list[1].title}</h3>
 							<p className="text-[#999] text-lg">
-								Complete Quests for your favorite teams and win K-Coins and Gem which you can use to claim your favorit teams Merch !
+								{translations.features.list[1].description}
 							</p>
 						</div>
 					</div>
 				</AnimatedElement>
-				<AnimatedElement animation="fadeInRight">
+				<AnimatedElement className="flex h-full" animation="fadeInRight">
 					<div className="flex bg-[#141820] p-8 rounded-xl ">
 						<img src="/images/features-1.png" className="h-8 pr-4" alt="" />
 						<div className="space-y-4">
-							<h3 className={clsx("text-white text-4xl font-bold", orbitron.className)}>Complete Quests</h3>
+							<h3 className={clsx("text-white text-4xl font-bold", orbitron.className)}>{translations.features.list[2].title}</h3>
 							<p className="text-[#999] text-lg">
-								Complete Quests for your favorite teams and win K-Coins and Gem which you can use to claim your favorit teams Merch !
+								{translations.features.list[2].description}
 							</p>
 						</div>
 					</div>
 				</AnimatedElement>
-				<AnimatedElement animation="fadeInLeft">
+				<AnimatedElement className="flex h-full" animation="fadeInLeft">
 					<div className="flex bg-[#141820] p-8 rounded-xl ">
 						<img src="/images/features-1.png" className="h-8 pr-4" alt="" />
 						<div className="space-y-4">
-							<h3 className={clsx("text-white text-4xl font-bold", orbitron.className)}>Complete Quests</h3>
+							<h3 className={clsx("text-white text-4xl font-bold", orbitron.className)}>{translations.features.list[3].title}</h3>
 							<p className="text-[#999] text-lg">
-								Complete Quests for your favorite teams and win K-Coins and Gem which you can use to claim your favorit teams Merch !
+								{translations.features.list[3].description}
 							</p>
 						</div>
 					</div>

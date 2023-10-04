@@ -5,7 +5,12 @@
     "about": "À propos"
   },
   "landing": {
-    "heading": ["Derrière Chaque", " Équipe ", "Se Cache Un Rugissement De", " Fans"]
+    "heading": [
+      "Derrière Chaque",
+      " Équipe ",
+      "Se Cache Un Rugissement De",
+      " Fans"
+    ]
   },
   "cta": {
     "title": "Derrière Chaque Équipe Se Trouve un Rugissement de Fans",
@@ -22,7 +27,26 @@
   },
   "features": {
     "title": "Votre Expérience Ultime de Fan",
-    "description": "KBOOM rend chaque moment inoubliable. Vous n'êtes pas seulement un fan, vous faites partie de l'équipe!"
+    "description": "KBOOM rend chaque moment inoubliable. Vous n'êtes pas seulement un fan, vous faites partie de l'équipe!",
+    "list": [
+      {
+        "title": "Complétez des quêtes",
+        "description": "Complétez des quêtes pour vos équipes préférées et gagnez des K-Coins et des Gemmes que vous pouvez utiliser pour obtenir les articles de votre équipe favorite !"
+      },
+      {
+        "title": "Montez dans le classement",
+        "description": "Montrez votre esprit compétitif pour grimper dans le classement et gagner des récompenses. Chaque victoire vous rapproche un peu plus des articles exclusifs ou des duels en 1 contre 1 !"
+      },
+      {
+        "title": "Expériences exclusives",
+        "description": "Un duel en 1 contre 1 contre votre joueur préféré ? Un coaching rapide de 30 minutes avec un coach de Gamers Origin ? Encouragez et jouez pour gagner des récompenses jamais vues auparavant !"
+      },
+      {
+        "title": "Personnalisez votre avatar",
+        "description": "Personnalisez votre profil pour correspondre à votre équipe préférée et créez votre propre avatar pour refléter le type de joueur que vous êtes vraiment !"
+      }
+    ]
+
   },
   "engage": {
     "engage": "Engagez-vous. ",
@@ -56,5 +80,24 @@
   "about": {
     "paragraph1": "Commencé en mars 2023, dans la salle de jeux de l'un des fondateurs, KBOOM a cherché à changer la façon dont les sports électroniques étaient perçus. Né de l'idée qu'un Fan peut être plus qu'un simple partisan, il est le rugissement dans la foule, la motivation derrière chaque trophée et la main pour relever ceux qui tombent.",
     "paragraph2": "KBOOM permet aux utilisateurs de partir en quête et à l'aventure pour leurs clubs d'esports préférés, de remporter des expériences exclusives avec leurs joueurs préférés et de montrer les couleurs de leur équipe pour que le monde sache où ils appartiennent. KBOOM est le lien entre les équipes et les fans."
+  },
+  "contact": {
+    "header": "Contactez-nous",
+    "title": "Prenez contact",
+    "subtitle": "Nous sommes là pour vous aider.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "placeholder": {
+        "name": "Votre nom",
+        "email": "Votre email",
+        "message": "Votre message"
+      },
+      "submit": "Envoyer"
+    },
+    "address": "Visitez-nous",
+    "phone": "Appelez-nous",
+    "email": "Envoyez-nous un email"
   }
 }

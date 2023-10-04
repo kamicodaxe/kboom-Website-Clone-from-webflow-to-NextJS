@@ -22,7 +22,26 @@
   },
   "features": {
     "title": "Jouw Ultieme Fan Ervaring",
-    "description": "KBOOM maakt elk moment onvergetelijk. Je bent niet zomaar een fan, je maakt deel uit van het team!"
+    "description": "KBOOM maakt elk moment onvergetelijk. Je bent niet zomaar een fan, je maakt deel uit van het team!",
+    "list": [
+      {
+        "title": "Voltooi opdrachten",
+        "description": "Voltooi opdrachten voor je favoriete teams en win K-Coins en Gem waarmee je de merchandise van je favoriete team kunt claimen!"
+      },
+      {
+        "title": "Stijg op het klassement",
+        "description": "Toon je competitieve geest om hogerop te komen in het klassement en win de buit. Elke overwinning brengt je een stap dichter bij die exclusieve merchandise of 1v1!"
+      },
+      {
+        "title": "Exclusieve ervaringen",
+        "description": "Een 1v1 tegen je favoriete speler? Een speedcoaching van 30 minuten met een coach van Gamers Origin? Juich en speel je een weg om nog nooit eerder geziene beloningen te verdienen!"
+      },
+      {
+        "title": "Pas je avatar aan",
+        "description": "Pas je profiel aan om bij je favoriete team te passen en personaliseer je eigen avatar om het type gamer te weerspiegelen dat je echt bent!"
+      }
+    ]
+
   },
   "engage": {
     "engage": "Betrokken zijn. ",
@@ -56,5 +75,24 @@
   "about": {
     "paragraph1": "Gestartet im März 2023 im Spielzimmer eines der Gründer, versuchte KBOOM, die Art und Weise zu verändern, wie Esports wahrgenommen wurde. Entstanden aus der Idee, dass ein Fan mehr sein kann als nur ein Unterstützer. Er ist das Brüllen in der Menge, die Motivation hinter jedem Pokal und die Hand, um diejenigen zu erheben, die fallen.",
     "paragraph2": "KBOOM ermöglicht es den Benutzern, für ihre Lieblings-Esports-Clubs auf Quest und Abenteuer zu gehen, um exklusive Erlebnisse mit ihren Lieblingsspielern zu gewinnen und die Farben ihres Teams zu zeigen, damit die Welt weiß, wohin sie gehören. KBOOM ist die Brücke zwischen Teams und Fans."
+  },
+  "contact": {
+    "header": "Neem contact op",
+    "title": "Neem contact op",
+    "subtitle": "Wij zijn er om u te helpen.",
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "placeholder": {
+        "name": "Uw naam",
+        "email": "Uw e-mail",
+        "message": "Uw bericht"
+      },
+      "submit": "Verzenden"
+    },
+    "address": "Bezoek Ons",
+    "phone": "Bel Ons",
+    "email": "Stuur Ons een E-mail"
   }
 }

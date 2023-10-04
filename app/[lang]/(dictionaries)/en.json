@@ -22,7 +22,26 @@
   },
   "features": {
     "title": "Your Ultimate Fan Experience",
-    "description": "KBOOM makes every moment count. You are not just a Fan, you are a part of the team!"
+    "description": "KBOOM makes every moment count. You are not just a Fan, you are a part of the team!",
+    "list": [
+      {
+        "title": "Complete Quests",
+        "description": "Complete Quests for your favorite teams and win K-Coins and Gem which you can use to claim your favorite team's Merch!"
+      },
+      {
+        "title": "Rank Up The Leaderboard",
+        "description": "Show your competitive spirit to climb up the leaderboard and win the spoils. Each win gets you a step closer to that exclusive merch or 1v1!"
+      },
+      {
+        "title": "Exclusive Experiences",
+        "description": "A 1v1 Vs your favorite player? A 30-minute speed coaching with Gamers Origin coach? Cheer and play your way to earn never seen before rewards."
+      },
+      {
+        "title": "Customize Your Avatar",
+        "description": "Tailor your profile to match your favorite team and customize your own Avatar to reflect the type of gamer you truly are!"
+      }
+    ]
+
   },
   "engage": {
     "engage": "Engage. ",
@@ -56,5 +75,24 @@
   "about": {
     "paragraph1": "Started in March 2023, in the gaming room of one of the Founders, KBOOM sought to change the way Esports was viewed. Born from an idea that a Fan can be more than just a supporter, He is the roar in the crowd, The motivation behind each trophy and the hand to raise those whom fall.",
     "paragraph2": "KBOOM allows users to Quest and Adventure for their favorite Esports Clubs, to win exclusive experiences with their favorite players and bleed the colors of their team for the world to know where they belong. KBOOM is the bridge between teams and Fans."
+  },
+  "contact": {
+    "header": "Contact Us",
+    "title": "Get in Touch",
+    "subtitle": "We're here to assist you.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "placeholder": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message"
+      },
+      "submit": "Submit"
+    },
+    "address": "Visit Us",
+    "phone": "Call Us",
+    "email": "Email Us"
   }
 }
