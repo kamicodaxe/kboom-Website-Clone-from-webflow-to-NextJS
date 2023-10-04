@@ -253,10 +253,20 @@ const tags = [
 	}
 ]
 
+const teamMembers = [
+	{ id: 1, name: "Antoine Delannoy", role: "Co-Founder & CEO", imageUrl: '/images/team/1.jpeg', slug: 'antoine-delannoy' },
+	{ id: 2, name: "Gabriel Guimbaud", role: "Co-Founder & CTO", imageUrl: '/images/team/2.jpeg', slug: 'gabriel-guimbaud' },
+	{ id: 3, name: "Nicolas Buchet", role: "Mobile Fullstack", imageUrl: '/images/team/3.jpeg', slug: 'nicolas-buchet' },
+	{ id: 4, name: "Alexandre Bourjade", role: "Co-Founder & COO", imageUrl: '/images/team/4.jpeg', slug: 'alexandre-bourjade' },
+	{ id: 5, name: "Nathan Benamou", role: "Back-End Lead", imageUrl: '/images/team/5.jpeg', slug: 'nathan-benamou' },
+	{ id: 6, name: "Hugo Canis", role: "Lead Designer", imageUrl: '/images/team/6.jpeg', slug: 'hugo-canis' }
+];
+
 
 
 export {
 	posts,
 	tags,
-	categories
+	categories,
+	teamMembers
 };

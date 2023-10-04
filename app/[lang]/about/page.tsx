@@ -6,6 +6,7 @@ import clsx from 'clsx'
 import { Orbitron } from 'next/font/google'
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { teamMembers } from '@/app/api/database'
 const orbitron = Orbitron({ subsets: ['latin'] })
 
 
@@ -37,16 +38,6 @@ export default async function About({ params: { lang } }: AboutProps) {
       </section>
 
       <div className="container mx-auto flex flex-col py-16 text-gray-800 dark:text-gray-200 max-w-3xl">
-        <img src='/images/team/1.jpg' alt='Team Member' />
-
-        <div className={clsx(
-          orbitron.className,
-          "w-full h-64 border-2 border-[#fed351] text-center flex flex-col justify-center",
-          "text-4xl font-bold space-y-4"
-        )}>
-          <h2>Nathan Benamou</h2>
-          <h3 className='text-2xl text-[#57b8ff] '>Back-End Lead</h3>
-        </div>
 
         <div className="text-lg space-y-8 pt-8">
           <p>
@@ -62,7 +53,6 @@ export default async function About({ params: { lang } }: AboutProps) {
 
       </div>
 
-
       <section className={clsx(
         "pt-6 sm:pt-8",
       )}>
@@ -72,24 +62,25 @@ export default async function About({ params: { lang } }: AboutProps) {
           </div>
           <div className="grid grid-cols-1 gap-x-6 gap-y-0 md:grid-cols-2 lg:grid-cols-3">
 
-            {[...Array(6)].map((_, index) => (
-              <Link href="/team/slug" key={index}
+            {teamMembers.map((member, index) => (
+              <Link href={`/team/${member.slug}`} key={index}
                 className={clsx(
-                  "flex flex-col dark:bg-gray-900 relative",
-                  "hover:bg-gray-200 dark:hover:bg-gray-800"
+                  "flex flex-col relative group",
                 )}
               >
-                <span aria-label="Te nulla oportere reprimique his dolorum">
-                  <img alt="" className="object-cover w-full h-96 bg-gray-500 dark:bg-gray-500" src={`https://source.unsplash.com/200x200/?games?${index}`} />
-                </span>
+                <div className="object-cover w-full h-96 bg-gray-500 dark:bg-gray-500 overflow-hidden">
+                  <img alt={member.name} className="object-cover duration-5000 group-hover:scale-150" src={member.imageUrl} />
+                </div>
                 <div className={clsx(
                   "flex flex-col pt-4 px-12 text-center",
-                  orbitron.className,
                   "-translate-y-12"
                 )}>
-                  <span className=" border-2 p-4 py-6 border-[#fed351]">
-                    <h2 className='text-2xl font-bold'>Nathan Benamou</h2>
-                    <h3 className='text-lg text-[#57b8ff] '>Back-End Lead</h3>
+                  <span className=" border-2 p-4 py-6 bg-gray-800 border-[#fed351]">
+                    <h2 className={clsx(
+                      'text-xl font-bold text-white',
+                      orbitron.className,
+                    )}>{member.name}</h2>
+                    <h3 className='text-lg text-[#57b8ff] '>{member.role}</h3>
                   </span>
                 </div>
               </Link>
