@@ -72,4 +72,6 @@ BlogPosts.Skeleton = ({ count }) => (
 	</div>
 )
 
+BlogPosts.displayName = "Blog Posts"
+
 export default BlogPosts;
