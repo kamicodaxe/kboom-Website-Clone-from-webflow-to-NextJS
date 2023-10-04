@@ -144,3 +144,27 @@
 .fadeInLeft {
   animation: fadeInLeft 1s ease-in-out;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2ce5a7;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #25c38e;
+}
