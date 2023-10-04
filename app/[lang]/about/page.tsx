@@ -20,7 +20,7 @@ export default async function About({ params: { lang } }: AboutProps) {
 
   return (
     <main className="dark:bg-[#262c3a]">
-      <Navbar translations={translations} />
+      <Navbar pathname='/about' translations={translations} />
 
       <section className="bg-[#fed351] text-black dark:text-black">
         <div className="container mx-auto flex flex-col items-center py-16 text-center max-w-5xl">

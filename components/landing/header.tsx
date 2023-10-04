@@ -16,7 +16,7 @@ export interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ translations }) => {
 	return (
 		<header className="">
-			<Navbar translations={translations} />
+			<Navbar pathname="/" translations={translations} />
 			<section className="text-gray-800 dark:text-white">
 				<div className="container mx-auto flex flex-col items-center pt-16 text-center max-w-5xl">
 					<h1 className="text-5xl font-[800] md:leading-[82px] md:text-7xl">Behind Every

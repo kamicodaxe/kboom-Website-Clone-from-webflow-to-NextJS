@@ -20,7 +20,7 @@ export default async function Blog({ params: { lang } }: BlogProps) {
 
   return (
     <main className="dark:bg-[#262c3a]">
-      <Navbar translations={translations} />
+      <Navbar pathname='/blog' translations={translations} />
 
       <BlogHeader posts={posts} />
 

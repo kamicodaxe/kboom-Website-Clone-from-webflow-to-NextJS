@@ -6,14 +6,22 @@ import * as React from "react"
 import Link from 'next/link'
 import { Translations } from "@/app/[lang]/dictionary"
 import { Skeleton } from "./skeleton"
+import clsx from "clsx"
+
 
 export interface NavbarProps {
-	translations: Translations
+	translations: Translations,
+	pathname: string
 }
 
-const Navbar: React.FC<NavbarProps> & { Skeleton: React.FC } = ({ translations }) => {
+export const isActiveRoute = (pathname: string, route: string) => {
+	return pathname === route ? 'border-b-2 border-[#2ce5a7] text-[#2ce5a7] dark:text-[#2ce5a7] dark:border-[#2ce5a7]' : '';
+};
+
+const Navbar: React.FC<NavbarProps> & { Skeleton: React.FC } = ({ translations, pathname }) => {
+	// Use pathname to detemine in which route we are to adequately select the write route, use the clsx package
 	return (
-		<nav className="flex justify-between py-5 px-4 mx-auto">
+		<nav className="flex justify-between py-5 px-8 static mx-auto">
 			<Link href="/" aria-label="Back to homepage" className="flex items-center">
 				<img
 					src="/images/logo.png"
@@ -24,13 +32,28 @@ const Navbar: React.FC<NavbarProps> & { Skeleton: React.FC } = ({ translations }
 			</Link>
 			<ul className="items-stretch hidden space-x-6 lg:flex text-xl font-bold text-gray-800 dark:text-white">
 				<li className="flex">
-					<Link rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent border-[#2ce5a7] text-[#2ce5a7] dark:text-[#2ce5a7] dark:border-[#2ce5a7]">{translations.navigation.home}</Link>
+					<Link
+						href="/"
+						className={clsx(
+							"flex items-center px-4 -mb-1 hover:text-[#2ce5a7]",
+							isActiveRoute(pathname, '/')
+						)}>{translations.navigation.home}</Link>
 				</li>
 				<li className="flex">
-					<Link rel="noopener noreferrer" href="/blog" className="flex items-center px-4 -mb-1 border-b-2 border-transparent dark:border-transparent">{translations.navigation.blog}</Link>
+					<Link
+						href="/blog"
+						className={clsx(
+							"flex items-center px-4 -mb-1 hover:text-[#2ce5a7]",
+							isActiveRoute(pathname, '/blog')
+						)}>{translations.navigation.blog}</Link>
 				</li>
 				<li className="flex">
-					<Link rel="noopener noreferrer" href="/about" className="flex items-center px-4 -mb-1 border-b-2 border-transparent dark:border-transparent">{translations.navigation.about}</Link>
+					<Link
+						href="/about"
+						className={clsx(
+							"flex items-center px-4 -mb-1 hover:text-[#2ce5a7]",
+							isActiveRoute(pathname, '/about')
+						)}>{translations.navigation.about}</Link>
 				</li>
 			</ul>
 			<div className="items-center flex-shrink-0 hidden lg:flex">
