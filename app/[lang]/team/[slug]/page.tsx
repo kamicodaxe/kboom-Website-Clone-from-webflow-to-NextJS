@@ -24,11 +24,11 @@ export default async function TeamMember({ params: { lang } }: TeamMemberProps) 
       <section className="bg-[#fed351] text-black dark:text-black">
         <div className="container mx-auto flex flex-col items-center py-16 text-center max-w-5xl">
           <h1 className="text-5xl font-[800] md:leading-[82px] md:text-7xl">
-            {translations.navigation.team || "Team"}
+            {"Team"}
           </h1>
           <Breadcrumb className="mx-auto" routes={[
             {
-              title: translations.navigation.TeamMember,
+              title: "Nathan Benamou",
               href: '/team/'
             }
           ]} />
