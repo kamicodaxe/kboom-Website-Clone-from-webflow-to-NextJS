@@ -1,3 +1,4 @@
+"use client"
 /**
  * SelectLanguage component
  */
@@ -10,21 +11,7 @@ import {
 	SelectValue,
 } from "@/components/ui/select"
 import { Translations } from "@/app/[lang]/dictionary";
-// import { useRouter, useTranslation } from "next/router";
-
-// const changeLanguage = (newLocale: string) => {
-// 	const router = useRouter();
-
-// 	i18n.changeLanguage(newLocale);
-
-// 	router.push({
-// 		pathname: window.location.pathname,
-// 		locale: newLocale
-// 	});
-// };
-
-// changeLanguage("es")
-
+import { useRouter } from "next/router"
 
 
 export interface SelectLanguageProps {
@@ -34,7 +21,7 @@ export interface SelectLanguageProps {
 
 const SelectLanguage: React.FC<SelectLanguageProps> = ({ translations, lang }) => {
 	return (
-		<section className="bg-[#262c3a] text-black flex justify-center">
+		<section className=" text-black flex justify-center">
 
 			<Select defaultValue={lang}>
 				<SelectTrigger className="w-[180px]">
