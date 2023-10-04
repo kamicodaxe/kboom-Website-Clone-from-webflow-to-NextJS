@@ -19,9 +19,9 @@ const Header: React.FC<HeaderProps> = ({ translations }) => {
 			<Navbar pathname="/" translations={translations} />
 			<section className="text-gray-800 dark:text-white">
 				<div className="container mx-auto flex flex-col items-center pt-16 text-center max-w-5xl">
-					<h1 className="text-5xl font-[800] md:leading-[82px] md:text-7xl">Behind Every
-						<span className="text-[#2ce5a7] dark:text-[#2ce5a7] capitalize"> Team </span> <br className="hidden md:block" />
-						Is A Roar Of <span className="text-[#2ce5a7] dark:text-[#2ce5a7]"> Fans</span>
+					<h1 className="text-5xl font-[800] md:leading-[82px] md:text-7xl">{translations.landing.heading[0]}
+						<span className="text-[#2ce5a7] dark:text-[#2ce5a7] capitalize"> {translations.landing.heading[1]} </span> <br className="hidden md:block" />
+						{translations.landing.heading[2]} <span className="text-[#2ce5a7] dark:text-[#2ce5a7]">{translations.landing.heading[3]}</span>
 					</h1>
 					<p className="px-8 mb-16 text-lg text-gray-600 dark:text-gray-200 ">
 						{translations.cta.subtitle}

@@ -4,6 +4,9 @@
     "blog": "Blog",
     "about": "Acerca de"
   },
+  "landing": {
+    "heading": ["Detrás de Cada", " Equipo ", "Hay un Rugido de", " Fans"]
+  },
   "cta": {
     "title": "Detrás de Cada Equipo Hay un Rugido de Fans",
     "subtitle": "Los fans son la columna vertebral de cada equipo, pero ¿pueden enfrentarse a los desafíos que se avecinan? Entra en el mundo de KBOOM y compite por tus equipos favoritos.",
@@ -49,5 +52,9 @@
     "placeholder": "Tu dirección de correo electrónico",
     "subscribeButton": "Suscríbete Ahora"
   },
-  "languageSelection": "Idioma:"
+  "languageSelection": "Idioma:",
+  "about": {
+    "paragraph1": "Comenzado en marzo de 2023, en la sala de juegos de uno de los Fundadores, KBOOM buscaba cambiar la forma en que se veían los deportes electrónicos. Nacido de la idea de que un Fan puede ser más que un simple seguidor, él es el rugido en la multitud, la motivación detrás de cada trofeo y la mano para levantar a aquellos que caen.",
+    "paragraph2": "KBOOM permite a los usuarios buscar y aventurarse por sus clubes de deportes electrónicos favoritos, ganar experiencias exclusivas con sus jugadores favoritos y mostrar los colores de su equipo para que el mundo sepa dónde pertenecen. KBOOM es el puente entre los equipos y los fans."
+  }
 }

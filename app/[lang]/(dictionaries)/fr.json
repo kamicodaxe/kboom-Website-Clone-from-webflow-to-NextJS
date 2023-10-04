@@ -4,6 +4,9 @@
     "blog": "Blog",
     "about": "À propos"
   },
+  "landing": {
+    "heading": ["Derrière Chaque", " Équipe ", "Se Cache Un Rugissement De", " Fans"]
+  },
   "cta": {
     "title": "Derrière Chaque Équipe Se Trouve un Rugissement de Fans",
     "subtitle": "Les fans sont l'épine dorsale de chaque équipe, mais peuvent-ils relever les défis qui se présentent? Plongez dans le monde de KBOOM et participez pour vos équipes préférées.",
@@ -49,5 +52,9 @@
     "placeholder": "Votre adresse e-mail",
     "subscribeButton": "Abonnez-vous maintenant"
   },
-  "languageSelection": "Langue :"
+  "languageSelection": "Langue :",
+  "about": {
+    "paragraph1": "Commencé en mars 2023, dans la salle de jeux de l'un des fondateurs, KBOOM a cherché à changer la façon dont les sports électroniques étaient perçus. Né de l'idée qu'un Fan peut être plus qu'un simple partisan, il est le rugissement dans la foule, la motivation derrière chaque trophée et la main pour relever ceux qui tombent.",
+    "paragraph2": "KBOOM permet aux utilisateurs de partir en quête et à l'aventure pour leurs clubs d'esports préférés, de remporter des expériences exclusives avec leurs joueurs préférés et de montrer les couleurs de leur équipe pour que le monde sache où ils appartiennent. KBOOM est le lien entre les équipes et les fans."
+  }
 }

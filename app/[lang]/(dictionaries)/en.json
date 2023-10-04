@@ -4,6 +4,9 @@
     "blog": "Blog",
     "about": "About"
   },
+  "landing": {
+    "heading": ["Behind Every", " Team ", "Is A Roar Of", " Fans"]
+  },
   "cta": {
     "title": "Behind Every Team Is A Roar Of Fans",
     "subtitle": "Fans are the backbone of every team, but can they rise up to the challenges ahead? Enter the world of KBOOM and compete for your favorite teams.",
@@ -49,5 +52,9 @@
     "placeholder": "Your Email Address",
     "subscribeButton": "Subscribe Now"
   },
-  "languageSelection": "Language:"
+  "languageSelection": "Language:",
+  "about": {
+    "paragraph1": "Started in March 2023, in the gaming room of one of the Founders, KBOOM sought to change the way Esports was viewed. Born from an idea that a Fan can be more than just a supporter, He is the roar in the crowd, The motivation behind each trophy and the hand to raise those whom fall.",
+    "paragraph2": "KBOOM allows users to Quest and Adventure for their favorite Esports Clubs, to win exclusive experiences with their favorite players and bleed the colors of their team for the world to know where they belong. KBOOM is the bridge between teams and Fans."
+  }
 }

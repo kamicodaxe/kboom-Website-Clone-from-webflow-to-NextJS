@@ -4,6 +4,9 @@
     "blog": "Blog",
     "about": "Over Ons"
   },
+  "landing": {
+    "heading": ["Achter Elke", " Team ", "Gaat Een Brul Van", " Fans"]
+  },
   "cta": {
     "title": "Achter Elk Team Staat een Brul Van Fans",
     "subtitle": "Fans zijn de ruggengraat van elk team, maar kunnen ze de uitdagingen die voor hen liggen aangaan? Betreed de wereld van KBOOM en strijd voor je favoriete teams.",
@@ -49,5 +52,9 @@
     "placeholder": "Je E-mailadres",
     "subscribeButton": "Nu Abonneren"
   },
-  "languageSelection": "Taal:"
+  "languageSelection": "Taal:",
+  "about": {
+    "paragraph1": "Gestartet im März 2023 im Spielzimmer eines der Gründer, versuchte KBOOM, die Art und Weise zu verändern, wie Esports wahrgenommen wurde. Entstanden aus der Idee, dass ein Fan mehr sein kann als nur ein Unterstützer. Er ist das Brüllen in der Menge, die Motivation hinter jedem Pokal und die Hand, um diejenigen zu erheben, die fallen.",
+    "paragraph2": "KBOOM ermöglicht es den Benutzern, für ihre Lieblings-Esports-Clubs auf Quest und Abenteuer zu gehen, um exklusive Erlebnisse mit ihren Lieblingsspielern zu gewinnen und die Farben ihres Teams zu zeigen, damit die Welt weiß, wohin sie gehören. KBOOM ist die Brücke zwischen Teams und Fans."
+  }
 }
