@@ -25,13 +25,27 @@ const ViewSettings: React.FC<ViewSettingsProps> = ({ }) => {
 	// 	setDarkMode(prefersDarkMode.matches);
 	// }
 
+	React.useEffect(() => {
+		(async () => {
+			try {
+				let isDarkModeActive = window.localStorage.getItem('darkMode')
+				setDarkMode(isDarkModeActive == "true" ? true : false)
+			} catch (error) {
+				// Darkmode by default in case there is an error
+				setDarkMode(true)
+			}
+		})
+	}, []);
+
 	// Use an effect to add or remove the 'dark' class from the root element
 	React.useEffect(() => {
 		const root = document.documentElement;
 		if (darkMode) {
 			root.classList.add('dark');
+			window.localStorage.setItem('darkMode', 'true')
 		} else {
 			root.classList.remove('dark');
+			window.localStorage.setItem('darkMode', 'false')
 		}
 	}, [darkMode]);
 
