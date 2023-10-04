@@ -11,7 +11,7 @@ import {
 	SelectValue,
 } from "@/components/ui/select"
 import { Translations } from "@/app/[lang]/dictionary";
-import { useRouter } from "next/router"
+import { usePathname, useRouter } from "next/navigation"
 
 
 export interface SelectLanguageProps {
@@ -20,10 +20,18 @@ export interface SelectLanguageProps {
 }
 
 const SelectLanguage: React.FC<SelectLanguageProps> = ({ translations, lang }) => {
-	return (
-		<section className=" text-black flex justify-center">
 
-			<Select defaultValue={lang}>
+	const router = useRouter();
+	const pathname = usePathname();
+	const handleLanguageChange = (value: string) => {
+		// Push the new route, along with the new locale
+		router.push(pathname.replace(lang, value));
+	};
+
+	return (
+		<section className=" text-black dark:text-white flex justify-center">
+
+			<Select defaultValue={lang} onValueChange={handleLanguageChange}>
 				<SelectTrigger className="w-[180px]">
 					{translations.languageSelection}
 					<SelectValue placeholder="English" />
